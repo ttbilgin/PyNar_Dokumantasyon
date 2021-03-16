@@ -7,4 +7,4 @@
 
 
 ---
-[MarkDown CheatSheet] (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+[MarkDown CheatSheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
