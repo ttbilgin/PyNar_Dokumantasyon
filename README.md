@@ -1,2 +1,2 @@
 # PyNar Kodlama Dökümanları
-1. [GitHub](http://github.com)
+1. [Nuitka](Nuitka.md)
