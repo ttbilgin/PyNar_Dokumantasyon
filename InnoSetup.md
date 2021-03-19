@@ -46,42 +46,46 @@ Son olarak Finish'e tıkla.<br>
 
 ## Script dosyasını doğrudan değiştirme
 Setup bölümünde:<br> 
-	1-Defaultgroupname satırını 'DefaultGroupName= PyNar Editör' olacak şekilde değiştir.<br>
-	2-Bölümün alt kısmına aşağıdaki satırları ekle.<br>
-	DisableWelcomePage=no<br>
-	DisableDirPage=no<br><br>
-	UsePreviousTasks=no<br>
-
-satırlarını ekle.<br>
+	<ol>
+	<li>Defaultgroupname satırını 'DefaultGroupName= PyNar Editör' olacak şekilde değiştir.</li>
+	<li>Bölümün alt kısmına aşağıdaki satırları ekle.</li>
+	</ol>
+	```
+	DisableWelcomePage=no
+	DisableDirPage=no
+	UsePreviousTasks=no
+	```
 
 Tasks bölümündeki satırın sonundaki ";Flags : unchecked" kısmını sil.<br>
 Tasks bölümünün altına aşağıdaki ifadeleri ekle:<br>
 
-"""<br>
-[Types]<br>
-Name: "typical"; Description: "Typical"<br>
-Name: "custom"; Description: "Custom"; Flags: iscustom<br>
+```
+[Types]
+Name: "typical"; Description: "Typical"
+Name: "custom"; Description: "Custom"; Flags: iscustom
 
-[Components]<br>
-Name: "Pynar"; Description: "PyNar uygulaması"; Types: typical custom; Flags: fixed<br>
-Name: "Python"; Description: "Python 3.9.2 32 bit"; Types: typical<br>
+[Components]
+Name: "Pynar"; Description: "PyNar uygulaması"; Types: typical custom; Flags: fixed
+Name: "Python"; Description: "Python 3.9.2 32 bit"; Types: typical
 
-[Dirs]<br>
-Name: "{app}\Log"<br>
-"""<br>
+[Dirs]
+Name: "{app}\Log"
+
+```
 Files bölümünde:
 	1-Bütün satırların sonuna ";Components: PyNar" ekle.
-	2-Klasörler için 'Destdir: "{app}" ifadesine "\(klasör ismi)" ekle. Örnek sonuç : 'DestDir: "{app}\PyQt5"'
+	2-Klasörler için 'Destdir: "{app}" ifadesine "\(klasör ismi)" ekle.
 	3- En alt satıra alttaki satırı ekle ve Python kurulum dosyasının yolunu yaz:
 	'Source: "(Buraya python yükleme dosyasının yolu yazılmalı.)"; DestDir: "{tmp}"; Flags: ignoreversion; Components: Python'
 
 Registerdaki bütün satırları aşağıdaki satırlarla değiş:
+```
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}"; ValueType: string; ValueName: ""; ValueData: "{#MyAppAssocKey}"; Flags: uninsdeletevalue
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}"; ValueType: string; ValueName: ""; ValueData: "{#MyAppAssocName}"; Flags: uninsdeletekey
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
-
+```
 Dosyanın elt altına aşağıdaki satırları ekle:
 
 ```
