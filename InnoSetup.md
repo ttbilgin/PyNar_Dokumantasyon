@@ -83,7 +83,8 @@ Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\DefaultIcon"; ValueType: s
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
 
 Dosyanın elt altına aşağıdaki satırları ekle:
-"""
+
+```
 Run
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent unchecked; Components: Python; Check: pythoninstall 
 
@@ -101,5 +102,5 @@ begin
     Result:=False;
   end;
 end;
-"""
+```
 
