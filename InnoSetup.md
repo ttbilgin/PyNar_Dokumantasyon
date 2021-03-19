@@ -45,6 +45,7 @@ Son olarak Finish'e tıkla.<br>
 "Would you like to compile" sorusuna Hayır de.<br>
 
 ## Script dosyasını doğrudan değiştirme
+### 1
 Setup bölümünde:<br> 
 	<ol>
 	<li>Defaultgroupname satırını 'DefaultGroupName= PyNar Editör' olacak şekilde değiştir.</li>
@@ -55,9 +56,8 @@ Setup bölümünde:<br>
 	DisableDirPage=no
 	UsePreviousTasks=no
 	```
-
-Tasks bölümündeki satırın sonundaki ";Flags : unchecked" kısmını sil.<br>
-Tasks bölümünün altına aşağıdaki ifadeleri ekle:<br>
+### 2
+Tasks bölümündeki satırın sonundaki ";Flags : unchecked" kısmını sil ve bölümünün altına aşağıdaki ifadeleri ekle:<br>
 
 ```
 [Types]
@@ -76,7 +76,7 @@ Files bölümünde:
 	1-Bütün satırların sonuna ";Components: PyNar" ekle.
 	2-Klasörler için 'Destdir: "{app}" ifadesine "\(klasör ismi)" ekle.
 	3- En alt satıra alttaki satırı ekle ve Python kurulum dosyasının yolunu yaz:
-	'Source: "(Buraya python yükleme dosyasının yolu yazılmalı.)"; DestDir: "{tmp}"; Flags: ignoreversion; Components: Python'
+	```Source: "<Python kurulum dosyası yeri>"; DestDir: "{tmp}"; Flags: ignoreversion; Components: Python```
 
 Registerdaki bütün satırları aşağıdaki satırlarla değiş:
 ```
