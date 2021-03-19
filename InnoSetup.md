@@ -31,16 +31,16 @@ Lisans ve Bilgi dosyalarını seç ve Next'e tıkla.<br>
 ![image](https://user-images.githubusercontent.com/43936380/111612775-df1b3300-87ee-11eb-9691-74c108380d34.png)<br>
 "Non administrative..." şıkkını seç, diğer şıkların seçili olmadığından emin ol ve Next'e tıkla.<br>
 ### 9
-![image](https://user-images.githubusercontent.com/43936380/111612951-0eca3b00-87ef-11eb-8730-58469e3bad44.png)"<br>
+![image](https://user-images.githubusercontent.com/43936380/111612951-0eca3b00-87ef-11eb-8730-58469e3bad44.png)<br>
 Dillerden Türkçe'yi (Turkish) seç ve Next'e tıkla.<br>
 ### 10
-![image](https://user-images.githubusercontent.com/43936380/111613036-273a5580-87ef-11eb-9d99-f2c10255caeb.png)
+![image](https://user-images.githubusercontent.com/43936380/111613036-273a5580-87ef-11eb-9d99-f2c10255caeb.png)<br>
 İsteniyorsa kurulum dosyasının yolunu ve ismini seç, ve Next'e tıkla.<br>
 ### 11
-![image](https://user-images.githubusercontent.com/43936380/111613164-476a1480-87ef-11eb-8bd7-776d1dcb5c32.png)
+![image](https://user-images.githubusercontent.com/43936380/111613164-476a1480-87ef-11eb-8bd7-776d1dcb5c32.png)<br>
 "Yes, use #define..." şıkkının seçili olduğundan emin ol ve Next'e tıkla.<br>
 ### 12
-![image](https://user-images.githubusercontent.com/43936380/111613243-5c46a800-87ef-11eb-9f43-00344661d7c2.png)
+![image](https://user-images.githubusercontent.com/43936380/111613243-5c46a800-87ef-11eb-9f43-00344661d7c2.png)<br>
 Son olarak Finish'e tıkla.<br>
 "Would you like to compile" sorusuna Hayır de.<br>
 
