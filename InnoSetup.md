@@ -53,7 +53,11 @@ Setup bölümünde:<br>
 	</ol>
 	```
 	DisableWelcomePage=no
+	```
+	```
 	DisableDirPage=no
+	```
+	```
 	UsePreviousTasks=no
 	```
 ### 2
@@ -72,12 +76,16 @@ Name: "Python"; Description: "Python 3.9.2 32 bit"; Types: typical
 Name: "{app}\Log"
 
 ```
+### 3
 Files bölümünde:
-	1-Bütün satırların sonuna ";Components: PyNar" ekle.
-	2-Klasörler için 'Destdir: "{app}" ifadesine "\(klasör ismi)" ekle.
-	3- En alt satıra alttaki satırı ekle ve Python kurulum dosyasının yolunu yaz:
+	<ol>
+	<li>Bütün satırların sonuna ";Components: PyNar" ekle.</li>
+	<li>Klasörler için 'Destdir: "{app}" ifadesine "\(klasör ismi)" ekle.</li>
+	<li>Altta verilen satırda <Python kurulum yeri> yazan yere Python kurulum dosyası yerine bilgisayarda bulunan kurulum dosyasının yolunu yaz, ve böllümün altına ekle</li>
+	</ol>
 	```Source: "<Python kurulum dosyası yeri>"; DestDir: "{tmp}"; Flags: ignoreversion; Components: Python```
 
+### 4
 Registerdaki bütün satırları aşağıdaki satırlarla değiş:
 ```
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}"; ValueType: string; ValueName: ""; ValueData: "{#MyAppAssocKey}"; Flags: uninsdeletevalue
@@ -86,7 +94,8 @@ Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}"; ValueType: string; Value
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
 ```
-Dosyanın elt altına aşağıdaki satırları ekle:
+### 5
+Son olarak, dosyanın elt altına aşağıdaki satırları ekle:
 
 ```
 Run
