@@ -1,4 +1,5 @@
 # InnoSetup ile PyNar kurulumu hazırlama
+Bu kılavuz InnoSetup 6.1.2 versiyonu için hazırlanmıştır.
 ## Script Wizard aşaması
 ### 1
 ![image](https://user-images.githubusercontent.com/43936380/111608321-20f5aa80-87ea-11eb-814a-4d57ee354c91.png)<br>
