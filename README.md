@@ -1,7 +1,8 @@
 # PyNar Kodlama Dökümanları
 1. [Nuitka Derleme Parametreleri](Nuitka.md)
 2. [InnoSetup ile kurulum Hazırlama](InnoSetup.md)
-3. [ChangeLog](ChangeLog.md)
+3. [Pardus/Debian/Ubuntu için deb paketi oluşturme](DebPaketYapma.md)
+4. [ChangeLog](ChangeLog.md)
 
 
 
