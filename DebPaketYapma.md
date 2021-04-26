@@ -13,6 +13,16 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 
 # 3
 "pynar/DEBIAN" klasörü içerisine "control" adlı boş bir dosya eklenir ve içerisine aşağıda verildiği gibi gerekli bilgiler yazılır.
+>Package: PyNar<br>
+>Version: 1.0<br>
+>Section: custom<br>
+>Priority: optional<br>
+>Architecture: all<br>
+>Essential: no<br>
+>Installed-Size: 400000<br>
+>Maintainer: PyNar<br>
+>Description: PyNar<br>
+
 ![3](https://user-images.githubusercontent.com/43936380/116034741-7e440d80-a66c-11eb-85a2-ce45beb9070c.png)
 
 # 4
@@ -21,6 +31,34 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 
 # 5
 "pynar/usr/bin" klasörü içerisine "pynar" adlı boş bir dosya eklenir, aşağıda verilen başlatma kodlarını bu dosya içerisine yazılır, ve bu dosyanın uygulama olarak çalıştırılmasına izin verilir.
+>#!/bin/bash<br>
+>desktop_path=$(xdg-user-dir DESKTOP)<br>
+>if [ -e $desktop_path/pynar ]; then<br>
+>    :<br>
+>else<br>
+>    cp /usr/share/applications/pynar.desktop $desktop_path<br>
+>    chmod +x $desktop_path/pynar.desktop<br>
+>    gio set $desktop_path/pynar.desktop metadata::trusted true<br>
+>fi<br>
+>if [ -d ~/pynar/ ]; then<br>
+>    :<br>
+>else<br>
+>    cp -r /usr/share/pynar ~/ &<br>
+>    (<br>
+>	echo "10" ; sleep 1<br>
+>	echo "20" ; sleep 1<br>
+>	echo "50" ; sleep 1<br>
+>	echo "75" ; sleep 1<br>
+>	echo "100" ; sleep 1<br>
+>	) |<br>
+>	zenity --progress \<br>
+>	  --title="Kurulum Sihirbazı" \<br>
+>   --text="PyNar Editör İlk Çalıştırma için hazırlanıyor..." \<br>
+>	  --width 400 \<br>
+>	  --percentage=0<br>
+>fi<br>
+>~/pynar/main<br>
+
 ![5_1](https://user-images.githubusercontent.com/43936380/116034753-82702b00-a66c-11eb-9000-4b7922421b18.png)
 ![5_2](https://user-images.githubusercontent.com/43936380/116034760-8439ee80-a66c-11eb-8cfd-046ef6fd8d93.png)
 
@@ -34,6 +72,18 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 
 # 8
 "pynar/usr/share/applications" klasörüne "pynar.desktop" adlı boş bir dosya eklenir ve içerisine aşağıda verildiği gibi gerekli bilgiler yazılır.
+>[Desktop Entry]<br>
+>Version=1.0<br>
+>Name=pynar<br>
+>Comment=pynar<br>
+>Exec=pynar %U<br>
+>Icon=/usr/share/pixmap/pynar.ico<br>
+>Terminal=false<br>
+>StartupWMClass=pynar<br>
+>Type=Application<br>
+>Categories=Education<br>
+>MimeType=.py<br>
+
 ![8](https://user-images.githubusercontent.com/43936380/116034785-8c922980-a66c-11eb-8395-b8804ff5c0da.png)
 
 # 9
