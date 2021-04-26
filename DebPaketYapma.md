@@ -83,6 +83,7 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 >Type=Application<br>
 >Categories=Education<br>
 >MimeType=.py<br>
+
 ![7](https://user-images.githubusercontent.com/43936380/116034778-89973900-a66c-11eb-9244-72a3e08aa6b3.png)
 
 # 9
