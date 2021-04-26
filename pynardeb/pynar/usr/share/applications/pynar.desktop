@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=pynar
+Comment=pynar
+Exec=pynar %U
+Icon=/usr/share/pixmap/pynar.ico
+Terminal=false
+StartupWMClass=pynar
+Type=Application
+Categories=Education
+MimeType=.py

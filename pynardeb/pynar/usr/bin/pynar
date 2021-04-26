@@ -1,0 +1,30 @@
+#!/bin/bash
+desktop_path=$(xdg-user-dir DESKTOP)
+if [ -e $desktop_path/pynar ]; then
+    :
+else
+    cp /usr/share/applications/pynar.desktop $desktop_path
+    chmod +x $desktop_path/pynar.desktop
+    gio set $desktop_path/pynar.desktop metadata::trusted true
+fi
+
+if [ -d ~/pynar/ ]; then
+    :
+else
+    cp -r /usr/share/pynar ~/ &
+    (
+	echo "10" ; sleep 1
+	echo "20" ; sleep 1
+	echo "50" ; sleep 1
+	echo "75" ; sleep 1
+	echo "100" ; sleep 1
+	) |
+	zenity --progress \
+	  --title="Kurulum Sihirbazı" \
+	  --text="PyNar Editör İlk Çalıştırma için hazırlanıyor..." \
+	  --width 400 \
+	  --percentage=0
+fi
+
+~/pynar/main
+
