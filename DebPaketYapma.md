@@ -28,4 +28,4 @@ Kurulum için kullanılacak bir klasör hazırla ve bu klasör içerisine "pynar
 "pynar/usr/share/applications" klasörüne "pynar.desktop" adlı boş bir dosya ekle ve içerisine aşağıda verildiği gibi gerekli bilgileri yaz.
 
 # 9
-En başta hazırlanan klasöre geri dön, bu klasörde terminali aç ve "dpkg -build pynar" komutunu çalıştır.
+En başta hazırlanan klasöre geri dön, bu klasörde terminali aç ve "dpkg-deb --build pynar" komutunu çalıştır.
