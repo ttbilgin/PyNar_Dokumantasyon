@@ -2,9 +2,8 @@
 1. [Nuitka Derleme Parametreleri](Nuitka.md)
 2. [InnoSetup ile kurulum Hazırlama](InnoSetup.md)
 3. [Pardus/Debian/Ubuntu için deb paketi oluşturme](DebPaketYapma.md)
-4. [ChangeLog](ChangeLog.md)
-
-
+4. [pyright'ın derlenmesi](pyright.md)
+5. [ChangeLog](ChangeLog.md)
 
 
 
