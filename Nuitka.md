@@ -8,6 +8,7 @@ py -m nuitka --enable-plugin=qt-plugins,multiprocessing,numpy --include-qt-plugi
 ## 2. Linux/Pardus için derleme
 ```
 sudo apt-get install -y qt5-style-plugins
+sudo apt-get install -y chrpath
 python3 -m nuitka --enable-plugin=qt-plugins,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py
 ```
 
