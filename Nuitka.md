@@ -9,6 +9,7 @@ py -m nuitka --enable-plugin=qt-plugins,multiprocessing,numpy --include-qt-plugi
 ```
 sudo apt-get install -y qt5-style-plugins
 sudo apt-get install -y chrpath
+sudo apt-get install -y ccache
 python3 -m nuitka --enable-plugin=qt-plugins,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py
 ```
 
