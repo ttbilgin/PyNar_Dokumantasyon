@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
         pybutton.move(50, 50)        
 
     def clickMethod(self):
-        playsound('error.mp3',False)#async çalması için False yaptık.
+        playsound('error.mp3',False)#async çalması için False yaptık.Fakat linuxta ikinci parametre çalışmıyor.Manuel olarak async yapmak gerekir.
         print('Clicked Pyqt button.')
 
 if __name__ == "__main__":
