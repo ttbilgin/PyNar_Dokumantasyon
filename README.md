@@ -3,7 +3,8 @@
 2. [InnoSetup ile kurulum Hazırlama](InnoSetup.md)
 3. [Pardus/Debian/Ubuntu için deb paketi oluşturme](DebPaketYapma.md)
 4. [pyright'ın derlenmesi](pyright.md)
-5. [ChangeLog](ChangeLog.md)
+5. [Web sunucu kurulumu ](webserver_configuration.md)
+6. [ChangeLog](ChangeLog.md)
 
 
 
