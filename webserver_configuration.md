@@ -130,3 +130,5 @@ Kopyalama işlemi bittikten sonra ```api``` dizini altında ```config.php``` dos
     ]);
 
     define('JWT_SECRET', 'secret');
+
+Uygulamanız için tüm konfigürasyonları sağladınız. Uygulama başarıyla yayınlandı.
