@@ -8,3 +8,16 @@ Yorum satırları, Python yorumlayıcısı tarafından dikkate alınmayan ve yor
 * Süsleme yapmak
 
 Bu tür açıklama satırları kodun başkaları tarafından daha iyi anlaşılmasını sağlar. Python’da tek satırlık açıklama için “#” işareti kullanılır. “#” işareti kullandığınızda o satırdaki metin kod olarak işlenmez.
+
+**Örnek 1**
+
+Aşağıdaki yorum satırları Python tarafından dikkate alınmamaktadır. Bu nedenle sadece “print()” komutu çalışır.
+
+```python
+#Bu kod ekrana yazı yazılmasını sağlamaktadır. 
+print ("Konu: Yorum satırlarını kullanma") 
+#Her satırın başına # işareti eklenerek
+#alt alta yorum satırları oluşturulabilir. 
+```
+
+
