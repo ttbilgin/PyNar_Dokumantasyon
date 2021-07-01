@@ -1,4 +1,4 @@
-# Bölüm 2
+# Modül 2 YORUM SATIRLARI,DEĞİŞKENLER, VERİ TİPLERİ VE OPERATÖRLER
 ## 2.1. Yorum Satırlarını Kullanma
 
 Yorum satırları, Python yorumlayıcısı tarafından dikkate alınmayan ve yorumlanmayan ifadelerdir. Python’da yorum satırları genel olarak aşağıdaki işlemler için kullanılır:
@@ -19,5 +19,5 @@ print ("Konu: Yorum satırlarını kullanma")
 #Her satırın başına # işareti eklenerek
 #alt alta yorum satırları oluşturulabilir. 
 ```
-https://github.com/Ashkanph/md-to-html
+
 
