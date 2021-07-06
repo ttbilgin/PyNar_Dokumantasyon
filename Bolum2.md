@@ -761,9 +761,10 @@ Bu operatör, iki sayıyı bölmek için kullanılır.
 
 ```python
 print (5/3)
+0.8333333333333334
 ```
 
-0.8333333333333334
+
 
 Bölme operatörünü ikiden fazla sayıyı bölmek için de kullanabilirsiniz.
 
