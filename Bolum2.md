@@ -51,7 +51,7 @@ tırnak kullanılır. Açıklama satırını bitirmek için aynı işaretler kul
 tırnak kullanılır. Açıklama satırını bitirmek için \naynı şekilde kullanılır.'
 
 Konsol çıktısında açıklamalar birden fazla satırda olduğu için satır sonlarına \n kaçış dizisi karakterini
-konsol otomatik olarak eklemiştir. Aynı yorum satırını ′′′′′′yorum satırları′′′′′′ üçlü çift tırnak kullanarak da
+konsol otomatik olarak eklemiştir. Aynı yorum satırını """yorum satırları""" üçlü çift tırnak kullanarak da
 yapılabilir. Yorum satırları içinde kaçış dizisi karakterlerinin de çalışmadığı unutulmamalıdır.
 
 **Örnek 4**
