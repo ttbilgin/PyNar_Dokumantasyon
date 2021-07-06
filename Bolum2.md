@@ -20,6 +20,7 @@ Aşağıdaki yorum satırları Python tarafından dikkate alınmamaktadır. Bu n
 print ("Konu: Yorum satırlarını kullanma") 
 #Her satırın başına # işareti eklenerek
 #alt alta yorum satırları oluşturulabilir.
+
 >>> Konu: Yorum satırlarını kullanma
 ```
 
@@ -31,6 +32,7 @@ satırı olarak dikkate alınmaz.
 
 ```python
 print (2+3) # Bu kod satırı ekrana 2 sayının toplamını yazar.
+
 >>> 5
 ```
 
@@ -47,6 +49,7 @@ yazılır.
 ```python
 '''Python'da birden fazla açıklama satırı kullanmak için üçlü tek tırnak veya çift
 tırnak kullanılır. Açıklama satırını bitirmek için aynı işaretler kullanılır.'''
+
 >>> 'Python'da birden fazla\naçıklama satırı\nkullanmak için üçlü tek tırnak veya çift\n
 tırnak kullanılır. Açıklama satırını bitirmek için \naynı şekilde kullanılır.'
 ```
