@@ -47,9 +47,10 @@ yazılır.
 ```python
 '''Python'da birden fazla açıklama satırı kullanmak için üçlü tek tırnak veya çift
 tırnak kullanılır. Açıklama satırını bitirmek için aynı işaretler kullanılır.'''
-```
-'Python'da birden fazla\naçıklama satırı\nkullanmak için üçlü tek tırnak veya çift\n
+>>> 'Python'da birden fazla\naçıklama satırı\nkullanmak için üçlü tek tırnak veya çift\n
 tırnak kullanılır. Açıklama satırını bitirmek için \naynı şekilde kullanılır.'
+```
+
 
 Konsol çıktısında açıklamalar birden fazla satırda olduğu için satır sonlarına \n kaçış dizisi karakterini
 konsol otomatik olarak eklemiştir. Aynı yorum satırını """yorum satırları""" üçlü çift tırnak kullanarak da
