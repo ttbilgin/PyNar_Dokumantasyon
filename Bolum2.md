@@ -21,7 +21,7 @@ print ("Konu: Yorum satırlarını kullanma")
 #Her satırın başına # işareti eklenerek
 #alt alta yorum satırları oluşturulabilir.
 ```
->>> Konu: Yorum satırlarını kullanma
+&lt;&lt;&lt; Konu: Yorum satırlarını kullanma
 
 **Örnek 2**
 
