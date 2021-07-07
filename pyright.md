@@ -48,6 +48,8 @@ Oluşturduğunuz dosyanın içerisine ```package.nls.en-us.json``` dosyasının 
 
 ```package.nls.tr.json``` dosyası içinde ```keyler``` sabit kalacak şekilde ```value``` kısımlarını türkçeye tercüme ediniz.
 
+Tercüme edilmiş package.nls.tr.json dosyası [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/package.nls.tr.json)
+
 Örnek olarak aşağıdaki şekilde tercüme gerçekleştirebilirsiniz.
 
     "annotatedParamCountMismatch": "Parameter annotation count mismatch: expected {expected} but received {received}"
