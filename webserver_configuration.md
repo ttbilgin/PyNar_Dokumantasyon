@@ -112,7 +112,9 @@ Uygulama dağıtımı tamamlandı, tebrikler!
 
 ## UYGULAMAYI APACHE2 İLE SUNMAK
 
-Apache PHP diline direkt olarak destek vermektedir. Dolayısıyla ```/var/www``` dizini altında oluşturacağınız site klasörünün içerisine tüm siteyi kopyalayınız.
+Öncelikle uygulamayı [github](https://github.com/ttbilgin/PyNar_ServerSide_PurePHP) linkinden indiriniz.  
+
+Apache PHP diline direkt olarak destek vermektedir. Dolayısıyla indirdiğiniz uygulamayı ```/var/www``` dizini altında oluşturacağınız site klasörünün içerisine kopyalayınız.
 
 Kopyalama işlemi bittikten sonra ```api``` dizini altında ```config.php``` dosyasının içerisindeki aşağıda belirtilen üç değişkeni değiştirin.
 
