@@ -9,7 +9,7 @@ Inno Setup programı başlatılır, ilk çıkran ekrana veya ekrandan çıkılı
 Next'e tıklanır.<br>
 ### 3
 ![image](https://user-images.githubusercontent.com/43936380/132123789-5bf296c8-f0b7-4e39-bf77-461475598443.png)<br>
-Gelen satırlara uygun isimleri gir ve Next'e tıklanır.<br>
+Gelen satırlara uygun isimler girilir ve Next'e tıklanır.<br>
 ### 4
 ![image](https://user-images.githubusercontent.com/43936380/111609159-12f45980-87eb-11eb-88f0-f76eb4ef257d.png)<br>
 Üstteki seçenekte "Custom" seçilir ve "{userappdata}" ifadesi ilk kutuya yazılır, ve Next'e tıklanır.<br>
