@@ -23,10 +23,10 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 >Essential: no<br>
 >Installed-Size: 400000<br>
 >Maintainer: Türkçe Python Editörü Geliştirme Projesi<br>
->Depends: zenity | fonts-noto-color-emoji<br>
+>Depends: zenity , fonts-noto-color-emoji, zenity-common<br>
 >Description: Pynar Python Editörü<br>
->
-![control](https://user-images.githubusercontent.com/43936380/132127821-7c563d19-d12c-4e65-92b8-718ec88d5bd8.png)
+
+![control](https://user-images.githubusercontent.com/43936380/132135520-85aafe16-9218-4d7b-9bac-f231e5dc7c29.png)
 
 
 # 4
