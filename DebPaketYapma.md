@@ -5,29 +5,33 @@ Pynar simgesi(pynar.ico)
 
 # 1
 Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "pynar" adlı bir klasör eklenir.
-![1](https://user-images.githubusercontent.com/43936380/116034719-71271e80-a66c-11eb-98e1-acdd0620164f.png)
+![pynar](https://user-images.githubusercontent.com/43936380/132126318-10f6f194-0352-45d1-87b7-335584cb8083.png)
+
 
 # 2
 "pynar" klasörü içerisine "DEBIAN" ve "usr" adlı iki klasör eklenir.
-![2](https://user-images.githubusercontent.com/43936380/116034723-74220f00-a66c-11eb-94d3-2c2128a605f1.png)
+![usrdebi](https://user-images.githubusercontent.com/43936380/132126334-06ad1881-0797-4a71-b849-9bb814bec44d.png)
+
 
 # 3
 "pynar/DEBIAN" klasörü içerisine "control" adlı boş bir dosya eklenir ve içerisine aşağıda verildiği gibi gerekli bilgiler yazılır.
->Package: PyNar<br>
+>Package: Pynar<br>
 >Version: 1.0<br>
 >Section: custom<br>
 >Priority: optional<br>
 >Architecture: all<br>
 >Essential: no<br>
 >Installed-Size: 400000<br>
->Maintainer: PyNar<br>
->Description: PyNar<br>
+>Maintainer: Türkçe Python Editörü Geliştirme Projesi<br>
+>Depends: zenity | fonts-noto-color-emoji<br>
+>Description: Pynar Python Editörü<br>
+>
+![control](https://user-images.githubusercontent.com/43936380/132127821-7c563d19-d12c-4e65-92b8-718ec88d5bd8.png)
 
-![3](https://user-images.githubusercontent.com/43936380/116034741-7e440d80-a66c-11eb-85a2-ce45beb9070c.png)
 
 # 4
 "pynar/usr" klasörü içerisinde adları "share" ve "bin" olacak şekilde 2 klasör eklenir.
-![4](https://user-images.githubusercontent.com/43936380/116034748-800dd100-a66c-11eb-9528-1d7b6795306e.png)
+![binshare](https://user-images.githubusercontent.com/43936380/132127855-767106af-a416-4de7-9ef1-4364f40b1b37.png)
 
 # 5
 "pynar/usr/bin" klasörü içerisine "pynar" adlı boş bir dosya eklenir, aşağıda verilen başlatma kodlarını bu dosya içerisine yazılır, ve bu dosyanın uygulama olarak çalıştırılmasına izin verilir.
@@ -59,16 +63,16 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 >fi<br>
 >~/pynar/main<br>
 
-![5_1](https://user-images.githubusercontent.com/43936380/116034753-82702b00-a66c-11eb-9000-4b7922421b18.png)
-![5_2](https://user-images.githubusercontent.com/43936380/116034760-8439ee80-a66c-11eb-8cfd-046ef6fd8d93.png)
+![pynarbin](https://user-images.githubusercontent.com/43936380/132127917-64494ab9-1b0f-4101-8a54-d2ec77a2707b.png)
+![pynarbin2](https://user-images.githubusercontent.com/43936380/132127922-9de0abcc-44f8-4a75-b3a0-fc1f375fff52.png)
 
 # 6
 "pynar/usr/share" klasörü içerisine adları "applications" ve "pixmap" adlı iki klasör eklenir, pynar uygulamasının klasörü buraya kopyalanır ve ismi "pynar" olarak değiştirilir.
-![6](https://user-images.githubusercontent.com/43936380/116034767-869c4880-a66c-11eb-9850-f84c489dffed.png)
+![apppixpy](https://user-images.githubusercontent.com/43936380/132128074-9821c53b-370d-42c2-93d4-46db53aeb687.png)
 
 # 7
 "pynar/usr/share/pixmap" klasörüne "pynar.ico" dosyası kopyalanır.
-![8](https://user-images.githubusercontent.com/43936380/116034785-8c922980-a66c-11eb-8395-b8804ff5c0da.png)
+![pynarico](https://user-images.githubusercontent.com/43936380/132128084-22ee8dd0-d557-4966-b8ec-c1f74abaf0a7.png)
 
 # 8
 "pynar/usr/share/applications" klasörüne "pynar.desktop" adlı boş bir dosya eklenir ve içerisine aşağıda verildiği gibi gerekli bilgiler yazılır.
@@ -84,9 +88,9 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 >Categories=Education<br>
 >MimeType=.py<br>
 
-![7](https://user-images.githubusercontent.com/43936380/116034778-89973900-a66c-11eb-9244-72a3e08aa6b3.png)
+![pynardesktop](https://user-images.githubusercontent.com/43936380/132128281-d9735f0d-cee2-4742-8dda-d4ce19f5750d.png)
 
 # 9
 En başta hazırlanan klasöre geri dönülür, bu klasörde terminal açılır ve "dpkg-deb --build pynar" komutu çalıştırılır.
-![9](https://user-images.githubusercontent.com/43936380/116034792-8ef48380-a66c-11eb-8d4b-7c21f422db2b.png)
-![9_2](https://user-images.githubusercontent.com/43936380/116034798-9156dd80-a66c-11eb-9ff2-c42ce1e07040.png)
+![terminal](https://user-images.githubusercontent.com/43936380/132128303-0a02ba50-4b75-4deb-8a84-7936fd247177.png)
+![terminal2](https://user-images.githubusercontent.com/43936380/132128514-e0fa4401-8b87-481a-9d34-7226bd7bc47c.png)
