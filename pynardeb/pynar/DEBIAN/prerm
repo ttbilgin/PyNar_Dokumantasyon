@@ -1,0 +1,19 @@
+#!/bin/bash
+if [ $(id -u) = 0 ]; then
+	homedir="$(getent passwd $SUDO_USER | cut -d: -f6)"
+	USER=$SUDO_USER
+else
+	homedir=~
+	USER=$USER
+fi
+
+USERDIRCONF=${XDG_CONFIG_HOME:-$homedir/.config}/user-dirs.dirs
+test -f "$USERDIRCONF" && . "$USERDIRCONF"
+
+desktopdir=$(echo $XDG_DESKTOP_DIR| rev)
+desktopdir=$(echo $desktopdir| cut -d '/' -f 1)
+desktopdir=$(echo $desktopdir| rev)
+desktopdir="${homedir}/${desktopdir}"
+
+rm -r $homedir/pynar || true
+rm $desktopdir/pynar.desktop || true

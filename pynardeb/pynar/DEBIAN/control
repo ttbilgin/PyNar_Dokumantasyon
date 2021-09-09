@@ -1,9 +1,10 @@
-Package: PyNar
+Package: Pynar
 Version: 1.0
 Section: custom
 Priority: optional
 Architecture: all
 Essential: no
 Installed-Size: 400000
-Maintainer: PyNar
-Description: PyNar
+Maintainer: Türkçe Python Editörü Geliştirme Projesi
+Depends: zenity, fonts-noto-color-emoji, zenity-common
+Description: Pynar Python Editörü
