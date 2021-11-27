@@ -35,7 +35,7 @@ images
 Log
 qssfiles
 ```
-klasörleri derlenen uygulamanın bulunduğu klasöre atılır.
+klasörleri uygulamanın bulunduğu konumda oluşan main.dist klasörü içine atılır.
 
 ## 2. qt.conf Dosyası
 Pynar uygulamasının bulunduğu klasörde qt.conf adlı bir dosya oluşturulur ve aşağıdaki satırlar yazılır:
@@ -56,3 +56,7 @@ qtwebengine_resources_200p.pak
 qtwebengine_resources.pak
 ```
 dosyaları "resources" klasörüne taşınır.
+
+## 4. çalıştırma
+
+Proje klasörü içinde oluşan main.dist klasörü içindeki main.exe çift tıklanarak çalıştırılır.
