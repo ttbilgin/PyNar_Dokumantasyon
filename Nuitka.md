@@ -7,7 +7,10 @@ Eskisi: ``` path_to_file = os.path.join(os.path.dirname(__file__), "resources", 
 
 Yenisi: ``` path_to_file = os.path.join("Data","resources", path) ```
 
-
+## Nuitka kurulumu ##
+```
+pip install nuitka
+```
 ## 1. Windows için derleme
 ```
 nuitka --enable-plugin=qt-plugins,multiprocessing,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py --windows-icon-from-ico=pynar.ico --windows-disable-console --mingw64
