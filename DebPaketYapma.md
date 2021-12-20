@@ -63,7 +63,7 @@ Kurulum için kullanılacak bir klasör hazırlanır ve bu klasör içerisine "p
 >fi<br>
 >~/pynar/main<br>
 
-![pynarbin](https://user-images.githubusercontent.com/43936380/132127917-64494ab9-1b0f-4101-8a54-d2ec77a2707b.png)
+![pynarbin](https://user-images.githubusercontent.com/43936380/146789071-d23ac805-bb80-4f35-87ce-7e16354a8f4f.png)
 ![pynarbin2](https://user-images.githubusercontent.com/43936380/132127922-9de0abcc-44f8-4a75-b3a0-fc1f375fff52.png)
 
 # 6
