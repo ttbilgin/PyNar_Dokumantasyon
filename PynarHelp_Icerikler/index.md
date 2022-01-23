@@ -8,7 +8,7 @@
 
 ###     1.3 Kaldırma
 
-## 2.Başlarken
+## [2.Başlarken](Yardim_Bolum2.md)
 
 ###     2.1 Başlangıç Ekranı
 
@@ -60,7 +60,7 @@
 
 ####         2.4.4. Yorum Satırı haline getir (Ctrl+K)
 
-## 3.Pynar Editörde Oturum Açma
+## [3.Pynar Editörde Oturum Açma](Yardim_Bolum3.md)
 
 ###     3.1 [www.pynar.org](www.pynar.org) portalına kayıt olma
 
@@ -68,7 +68,7 @@
 
 ###     3.3 Okul ve öğretmen bilgisi düzenleme
 
-## 4. Pynar Bulut İşlemleri
+## [4. Pynar Bulut İşlemleri](Yardim_Bolum4.md)
 
 ###     4.1 Buluta Dosya Yükleme
 
@@ -78,19 +78,19 @@
 
 ###     4.4 Buluttan indirilen dosyaların depolanacağı PynarKutu #dizini
 
-## 5. Paket Yöneticisi ile Python paketleri Kurulumu
+## [5. Paket Yöneticisi ile Python paketleri Kurulumu](Yardim_Bolum5.md)
 
 ###     5.1 Paket Arama ve Kurma
 
 ###     5.2 Paket kaldırma
 
-## 6. Pynar Sohbet Robotu ile kod Hataları düzeltme
+## [6. Pynar Sohbet Robotu ile kod Hataları düzeltme](Yardim_Bolum6.md)
 
 ###     6.1 Hata durumunda sohbet robotunun devreye girmesi
 
 ###     6.2 Sohbet robotuyla etkileşerek kod hata
 
-## 7. Pynar Editör Ayarları
+## [7. Pynar Editör Ayarları](Yardim_Bolum7.md)
 
 ###     7.1 Editör Yazı tipi değiştirme
 
@@ -98,18 +98,10 @@
 
 ###     7.3 Tab tuşu genişliği değiştirme
 
-## 8. Kullanım Verileri
+## [8. Kullanım Verileri](Yardim_Bolum8.md)
 
 ###     8.1 Kullanım verileri nedir?
 
 ###     8.2. Kullanım verileri nereye kaydedilir?
 
 ###     8.3 Kullanım verileri nasıl silinir?
-
-## 9. Pynar Yardım
-
-###     9.1 Pynar Yazılımı Lisansı
-
-###     9.2 Yardım Penceresini açmak
-
-## 10.SSS
