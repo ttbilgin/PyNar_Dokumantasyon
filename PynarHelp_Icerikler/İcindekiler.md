@@ -2,11 +2,11 @@
 
 ## [1. Kurulum](Yardim_Bolum1.md)
 
-... 1.1 Kurulum Rehberi
+  1.1 Kurulum Rehberi
 
-... 1.2 Sistem Gereksinimleri
+  1.2 Sistem Gereksinimleri
 
-... 1.3 Kaldırma
+  1.3 Kaldırma
 
 ## 2.Başlarken
 
