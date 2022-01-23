@@ -1,4 +1,4 @@
-pandoc index.md --output=index.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
+pandoc icindekiler.md --output=icindekiler.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 pandoc Yardim_Bolum1.md --output=Yardim_Bolum1.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 pandoc Yardim_Bolum2.md --output=Yardim_Bolum2.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 pandoc Yardim_Bolum3.md --output=Yardim_Bolum3.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
