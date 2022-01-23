@@ -134,7 +134,7 @@ Tümünü değiştir butonuna tıklandığında \"Admin\" olan tüm ifadeler \"Y
 
 ![image](https://user-images.githubusercontent.com/56628866/141464329-7b3e9f30-7554-4e10-8407-ab679ae71f3a.png)
 
-#### 2.3.1.1 Ayalar Sekmesi
+#### 2.3.1.1 Ayarlar Sekmesi
 
 Ayalar butonuna tıklandığında karşınıza editörde kullanılan yazı tipini ve boyutunu değiştirebileceğiniz, kullanım verilerinizi görüp, silebileceğiniz bir pencere açılır.
 

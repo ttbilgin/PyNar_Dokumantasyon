@@ -1,6 +1,8 @@
-# Kayıt olma: Öğretmen
+# 10. PyNar Portal Kullanımı: Öğretmen
 
-https://www.pynar.org/portal/ adresine gidin. Üyelik oluşturu seçin.
+## 10.1 Kayıt olma: Öğretmen
+
+[https://www.pynar.org/portal/](https://www.pynar.org/portal/) adresine gidin. Üyelik oluşturu seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/145949083-5344bcb8-14f4-4613-bf40-221fb0b1eab6.png)
 
@@ -20,7 +22,7 @@ Kayıt olurken kullandığınız E-mail adresiniz ve şifreniz ile sisteme giri�
 
 ![Ekran Alıntısı2](https://user-images.githubusercontent.com/56628866/145951202-7b46c087-0583-4530-904a-8b0b421dd0b4.PNG)
 
-## Okul bilgilerini düzenleme
+## 10.2 Okul bilgilerini düzenleme
 
 Giriş yaptıktan sonra sol menüde bulunan \'Bilgilerim\'e tıklayın.
 

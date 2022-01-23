@@ -1,6 +1,8 @@
-# Kayıt Olma: Öğrenci
+# 9. PyNar Portal Kullanımı: Öğrenci
 
-https://www.pynar.org/portal/ adresine gidin. Öğrenci Girişini seçin.
+## 9.1 Kayıt Olma: Öğrenci
+
+[https://www.pynar.org/portal/](https://www.pynar.org/portal/) adresine gidin. Öğrenci Girişini seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/146160718-5fbcef28-d23e-4a3b-9ad8-a3d8cb12b154.png)
 
@@ -24,7 +26,7 @@ Kayıt olurken kullandığınız E-mail adresiniz ve şifreniz ile sisteme giri�
 
 ![image](https://user-images.githubusercontent.com/56628866/146161815-8d94fd21-5540-4be2-8854-79aa3ab6b655.png)
 
-## Okul ve öğretmen bilgisi düzenleme
+## 9.2 Okul ve öğretmen bilgisi düzenleme
 
 Giriş yaptıktan sonra sol menüde bulunan \'Bilgilerim\'e tıklayın.
 
