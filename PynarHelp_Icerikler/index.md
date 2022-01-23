@@ -2,7 +2,7 @@
 
 ## [1. Kurulum](Yardim_Bolum1.md)
 
-    1.1 Kurulum Rehberi
+    ### 1.1 Kurulum Rehberi
 
 ###     1.2 Sistem Gereksinimleri
 
