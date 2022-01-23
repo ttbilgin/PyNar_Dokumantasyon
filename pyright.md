@@ -42,19 +42,18 @@ Github üzerinden sunulan son sürümünü kendi bilgisayarınıza [buradan](htt
 
 ## 3. Adım: Türkçe tercüme dosyasının oluşturulması ve düzenlenmesi
 
-```./packages/pyright-internal/src/localization``` dizini içerisinde oluşturduğunuz türkçe tercüme dosyasını ```package.nls.tr.json``` adında oluşturunuz.
+```./packages/pyright-internal/src/localization``` dizini içerisine [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/package.nls.tr.json) dosyasını ve [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/findDiff.js) dosyasını kopyalayınız.
 
-Oluşturduğunuz dosyanın içerisine ```package.nls.en-us.json``` dosyasının içeriğini kopyalayınız.
-
-```package.nls.tr.json``` dosyası içinde ```keyler``` sabit kalacak şekilde ```value``` kısımlarını türkçeye tercüme ediniz.
-
-Tercüme edilmiş package.nls.tr.json dosyası [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/package.nls.tr.json)
-
-Örnek olarak aşağıdaki şekilde tercüme gerçekleştirebilirsiniz.
+Ardından ```node findDiff.js``` komutu çalıştırınız. Kod sorunsuz çalıştıktan sonra ekranda yeni eklenen keyleri gösterecektir. Bu keyleri aynı dizinde script tarafından oluşturulmuş olan ```package.nls.tr-updated.json``` dosyasının içerisinde aşağıdaki gibi tercüme ediniz. 
 
     "annotatedParamCountMismatch": "Parameter annotation count mismatch: expected {expected} but received {received}"
         =>
     "annotatedParamCountMismatch": "Parametre ek açıklama sayısı uyuşmazlığı: {expected} bekleniyordu ancak {received} alındı"
+
+Tercüme işleminden sonra eski ```package.nls.tr.json``` dosyasını siliniz ve  ```package.nls.tr-updated.json``` dosyasının adını ```package.nls.tr.json``` olarak güncelleyiniz.
+
+    rm package.nls.tr.json
+    mv package.nls.tr-updated.json package.nls.tr.json
 
 Daha sonrasında ```import trStrings = require('./package.nls.tr.json')``` kod parçasını ```localize.ts``` dosyasının üst kısmına yerleştirerek dosyayı dahil ediniz.
 
