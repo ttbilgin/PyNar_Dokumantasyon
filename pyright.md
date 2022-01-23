@@ -42,9 +42,13 @@ Github üzerinden sunulan son sürümünü kendi bilgisayarınıza [buradan](htt
 
 ## 3. Adım: Türkçe tercüme dosyasının oluşturulması ve düzenlenmesi
 
-```./packages/pyright-internal/src/localization``` dizini içerisine [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/package.nls.tr.json) dosyasını ve [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/findDiff.js) dosyasını kopyalayınız.
+```./packages/pyright-internal/src/localization``` dizini içerisine [package.nls.tr.json](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/package.nls.tr.json) dosyasını ve [findDiff.js](https://github.com/ttbilgin/PyNar_Dokumantasyon/blob/main/pyright/findDiff.js) dosyasını kopyalayınız.
 
-Ardından ```node findDiff.js``` komutu çalıştırınız. Kod sorunsuz çalıştıktan sonra ekranda yeni eklenen keyleri gösterecektir. Bu keyleri aynı dizinde script tarafından oluşturulmuş olan ```package.nls.tr-updated.json``` dosyasının içerisinde aşağıdaki gibi tercüme ediniz. 
+Ardından aşağıdaki komutu çalıştırınız. 
+
+    node findDiff.js
+
+Kod sorunsuz çalıştıktan sonra ekranda yeni eklenen keyleri gösterecektir. Bu keyleri aynı dizinde script tarafından oluşturulmuş olan ```package.nls.tr-updated.json``` dosyasının içerisinde aşağıdaki gibi tercüme ediniz. 
 
     "annotatedParamCountMismatch": "Parameter annotation count mismatch: expected {expected} but received {received}"
         =>
