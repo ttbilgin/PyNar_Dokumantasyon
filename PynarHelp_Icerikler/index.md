@@ -4,21 +4,21 @@
 
 > ###     1.1 Kurulum Rehberi
 
-###     1.2 Sistem Gereksinimleri
+> ###     1.2 Sistem Gereksinimleri
 
-###     1.3 Kaldırma
+> ###     1.3 Kaldırma
 
 ## [2.Başlarken](Yardim_Bolum2.md)
 
-###     2.1 Başlangıç Ekranı
+> ###     2.1 Başlangıç Ekranı
 
-###     2.2 İlk projeyi oluşturma
+> ###     2.2 İlk projeyi oluşturma
 
-###     2.3 Pynar Arayüzü
+> ###     2.3 Pynar Arayüzü
 
-####         2.3.1 Üst Menü
+>> ####         2.3.1 Üst Menü
 
-#####             2.3.1.1 Dosya Sekmesi
+>>> #####             2.3.1.1 Dosya Sekmesi
 
 #####             2.3.1.2 Ayarlar Sekmesi
 
