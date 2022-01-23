@@ -1,6 +1,6 @@
 # İçindekiler
 
-## 1. Kurulum
+## [1. Kurulum](Yardim_Bolum1.md)
 
   ###     1.1 Kurulum Rehberi
 
