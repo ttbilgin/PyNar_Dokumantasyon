@@ -1,4 +1,4 @@
-# AppJar Yardım Dökümanı
+# Görsel Programlama
 
 ## AppJar paketinin kurulumu
 
@@ -172,7 +172,7 @@ Metin kutusuna 'Pynar' yazdıktan sonra butona tıklanırsa alınacak çıktı.
 
 ![image](https://user-images.githubusercontent.com/56628866/151692716-065ad6cd-fa27-4231-9ed2-3ebde7ba18e5.png)
 
-### Çok Metin Kutusu
+### Çok Satırlı Metin Kutusu
 
 Çok metin kutusu eklemek için gui() sınıfına ait **addTextArea()** metodu kullanılır. Metin kutusuna girilen bilgiyi almak için ise **getTextArea()** metodu kullanılır.
 
@@ -381,9 +381,9 @@ p.go()
 
 Genel olarak önce bu üçünden biri yazılır hemen ardında ise ilgili aracın adı gelir.
 
-### Metin 
+### Etiket
 
-Metin çıktı kutusu eklemek için gui() sınıfına ait **addLabel()** metodu kullanılır.
+Etiket eklemek için gui() sınıfına ait **addLabel()** metodu kullanılır.
 
 ```python
 from appJar import gui
@@ -399,7 +399,7 @@ p.go()
 ![image](https://user-images.githubusercontent.com/56628866/151693585-76e9d055-af2c-4b7b-b74d-a7e8b25e3f2b.png)
 
 
-### Çok Satırlı Metin 
+### Çok Satırlı Etiket 
 
 Çok satırlı metin çıktı kutusu eklemek için gui() sınıfına ait **addMessage()** metodu kullanılır.
 
