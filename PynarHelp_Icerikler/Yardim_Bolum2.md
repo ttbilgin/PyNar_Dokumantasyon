@@ -326,17 +326,109 @@ Geri Al işlemi \'CTRL\' ve \'k\' tuşlarına aynı anda basılarak yapılır. S
 
 ![image](https://user-images.githubusercontent.com/56628866/141799866-7cdf60b2-907c-492d-a7b0-e17b87f81475.png)
 
+### 2.4.5. Yeni Sekme Oluştur (Ctrl+N)
+
+\'CTRL\' ve \'N\' tuşlarına aynı anda basarak yeni bir program sekmesi açabilabilir. 
+
+![image](https://user-images.githubusercontent.com/56628866/152638479-3e52b294-d9e8-426f-9f93-be9057f54be6.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638491-5b030f82-e2b8-45d1-892e-1472cac86e4e.png)
+
+### 2.4.6. Python Kodu Aç (Ctrl+O)
+
+\'CTRL\' ve \'O\' tuşlarına aynı anda basarak bilgisayarda kayıtlı olan bir Python kod dosyası PyNar editöründe açabilabilir.
+
+![image](https://user-images.githubusercontent.com/56628866/152638585-84b33487-6134-4bf7-be4a-7f6fe277d679.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638609-8e696155-92c5-4853-a482-10e090d50593.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638614-88959ab6-cfd3-431f-856c-6e377a536184.png)
+
+### 2.4.7. Kaydet (Ctrl+S)
+
+\'CTRL\' ve \'S\' tuşlarına aynı anda basarak kaydedilmemiş değişiklikleri olan bir python kodu ya da hiç kaydedilmemiş yeni bir python kodunu bilgisayarınıza kaydedebilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/152638669-dcb27300-70ca-42fa-ab30-43b45216c182.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638684-43a24a91-e5d8-4406-a318-e83599917954.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638687-44bd409d-832c-44fe-b2ac-a01751cf7a4b.png)
+
+Program kaydedildikten sonra sekmenin isminin değiştiğini ve kaydedilmediği işaret eden **\*** simgesinin kaybolduğunu görebilirsiniz.
+
+### 2.4.8. Farklı Kaydet (Ctrl+Shift+S)
+
+\'CTRL\' \'Shift\' ve \'S\' tuşlarına aynı anda basarak üzerinde değişiklik yaptığınız programın ilk halini değiştirmeden son halini yeni bir isimle veya yeni bir konuma kaydetmenize olanak sağlar.
+
+![image](https://user-images.githubusercontent.com/56628866/152638826-9e61033b-33bd-45a1-ab25-0fdcf0542085.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638837-eda003f7-2055-43ea-b371-b5d85b0f3515.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638852-dc5bcabe-11ac-41b1-b987-8f5a9463487c.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638858-9edc7e47-c913-4d59-aec0-28004bcac6b1.png)
+
+Dosyanın ilk hali de son hali de bilgisayarda bulunuyor. Farklı kaydet işlemini yaptıktan sonra yapılan değişiklikler ise yeni kaydettiğimiz dosyanın üzerinde yapılır.
 
 
+### 2.4.9. Yazdır (Ctrl+P)
+
+\'CTRL\' ve \'P\' tuşlarına aynı anda basarak açık olan dosyadaki kodu bilgisayarın erişimi olduğu yazıcılar aracılığyla yazdırabilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/152638975-0fa2844a-2f2d-486e-be03-f2750fd3cba0.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152638982-1e8d23c4-3935-43d7-8fd8-efe6aa6dc8e2.png)
 
 
+### 2.4.10. İleri al (Ctrl+Shift+Z)
 
+\'CTRL\' \'Shift\' ve \'Z\' tuşlarına aynı anda basarak **Geri al** işleminin tam tersini yaparak geri aldığını bir işlemi tekrar geri getirebilirsiniz.
 
+![image](https://user-images.githubusercontent.com/56628866/152639044-bee50a11-05d0-44a3-bb9b-fbab16acc731.png)
 
+![image](https://user-images.githubusercontent.com/56628866/152639049-1a093a96-c758-4878-bf53-f8c625c8a043.png)
 
+### 2.4.11. Yakınlaştır (Ctrl+\'+\')
 
+\'CTRL\' ve \'+\' tuşlarına aynı anda basarak PyNar editörünün yazı fontunu büyütebilirsiniz.
 
+![image](https://user-images.githubusercontent.com/56628866/152639080-53cc3027-1221-447a-8b6e-ee486042698f.png)
 
+3 defa \'CTRL\' ve \'+\' tuşlarına bastıktan sonra:
+
+![image](https://user-images.githubusercontent.com/56628866/152639100-033faeb6-b603-4539-b695-caa832b5c228.png)
+
+### 2.4.12. Uzaklaştır (Ctrl+\'-\')
+
+\'CTRL\' ve \'-\' tuşlarına aynı anda basarak PyNar editörünün yazı fontunu küçültebilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/152639100-033faeb6-b603-4539-b695-caa832b5c228.png)
+
+3 defa \'CTRL\' ve \'-\' tuşlarına bastıktan sonra:
+
+![image](https://user-images.githubusercontent.com/56628866/152639080-53cc3027-1221-447a-8b6e-ee486042698f.png)
+
+### 2.4.13. Dosya geçmişi (Ctrl+H)
+
+\'CTRL\' ve \'H\' tuşlarına aynı anda basarak daha önceden açtığınız dosyaların bir litesine ulaşabilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/152639135-b44b5bc8-271b-404c-8bda-e8151b258af2.png)
+
+### 2.4.14. Bul ve Değiştir (Ctrl+F)
+
+\'CTRL\' ve \'F\' tuşlarına aynı anda basarak Bul ve Değiştir aracını açabilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/152639190-762df9cb-dfdd-49cc-8a4b-f937ea349245.png)
+
+![image](https://user-images.githubusercontent.com/56628866/152639207-25754717-5d0c-4d77-85c2-622c377e38ff.png)
+
+### 2.4.15. Sekmeyi Kapat (Ctrl+W)
+
+\'CTRL\' ve \'W\' tuşlarına aynı anda basarak açık olan kod sekmesini kapatabilirsiniz.
+
+![image](https://user-images.githubusercontent.com/56628866/153445133-cdef10e2-4fba-4ed7-bd79-91c054ab5fb5.png)
+
+![image](https://user-images.githubusercontent.com/56628866/153445157-81c6f75e-970e-4567-a1af-fb84a19c0d6a.png)
 
 
 
