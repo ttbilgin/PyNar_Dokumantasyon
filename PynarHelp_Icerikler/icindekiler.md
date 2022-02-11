@@ -60,6 +60,30 @@
 
 >> ####         [2.4.4. Yorum Satırı haline getir (Ctrl+K)](Yardim_Bolum2.html#yorum-satırı-haline-getir-ctrlk)
 
+>> ####         [2.4.5. Yeni Sekme Oluştur (Ctrl+N)](Yardim_Bolum2.html#yeni-sekme-oluştur-ctrln)
+
+>> ####         [2.4.6. Python Kodu Aç (Ctrl+O)](Yardim_Bolum2.html#python-kodu-aç-ctrlo)
+
+>> ####         [2.4.7. Kaydet (Ctrl+S)](Yardim_Bolum2.html#kaydet-ctrls)
+
+>> ####         [2.4.8. Farklı Kaydet (Ctrl+Shift+S)](Yardim_Bolum2.html#farklı-kaydet-ctrlshifts)
+
+>> ####         [2.4.9. Yazdır (Ctrl+P)](Yardim_Bolum2.html#yazdır-ctrlp)
+
+>> ####         [2.4.10. İleri al (Ctrl+Shift+Z)](Yardim_Bolum2.html#ileri-al-ctrlshiftz)
+
+>> ####         [2.4.11. Yakınlaştır (Ctrl+\'+\')](Yardim_Bolum2.html#yakınlaştır-ctrl)
+
+>> ####         [2.4.12. Uzaklaştır (Ctrl+\'-\')](Yardim_Bolum2.html#uzaklaştır-ctrl-)
+
+>> ####         [2.4.13. Dosya geçmişi (Ctrl+H)](Yardim_Bolum2.html#dosya-geçmişi-ctrlh)
+
+>> ####         [2.4.14. Bul ve Değiştir (Ctrl+F)](Yardim_Bolum2.html#bul-ve-değiştir-ctrlf)
+
+>> ####         [2.4.15. Sekmeyi Kapat (Ctrl+W)](Yardim_Bolum2.html#sekmeyi-kapat-ctrlw)
+
+
+
 ## [3.Pynar Editörde Oturum Açma](Yardim_Bolum3.html)
 
 > ###     [3.1 [www.pynar.org](www.pynar.org) portalına kayıt olma](Yardim_Bolum3.html#www.pynar.org-portalına-kayıt-olma)
