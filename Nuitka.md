@@ -40,26 +40,6 @@ qssfiles
 ```
 klasörleri uygulamanın bulunduğu konumda oluşan main.dist klasörü içine atılır.
 
-## 2. qt.conf Dosyası
-Pynar uygulamasının bulunduğu klasörde qt.conf adlı bir dosya oluşturulur ve aşağıdaki satırlar yazılır:
-
-```
-[Paths]
-Prefix=PyQt5/Qt
-```
-
-
-## 3. resources Klasörü
-Pynar uygulamasının bulunduğu klasör içerisinde PyQt5/Qt klasörüne gidilir ve bu klasörde "resources" adlı bir klasör yapılır. Ardından ana klasördeki:
-```
-icudtl.dat
-qtwebengine_devtools_resources.pak
-qtwebengine_resources_100p.pak
-qtwebengine_resources_200p.pak
-qtwebengine_resources.pak
-```
-dosyaları "resources" klasörüne taşınır.
-
-## 4. çalıştırma
+## 2. çalıştırma
 
 Proje klasörü içinde oluşan main.dist klasörü içindeki main.exe çift tıklanarak çalıştırılır.
