@@ -118,3 +118,8 @@ begin
 end;
 ```
 
+### 6
+Ek olarak her dosya için bir satır yazılması istenmiyorsa [Files] kısmının altında pythoninstall dosyası hariç bütün satırlar silinip yerine sadece:<br>
+`Source: "C:\pynar\*"; DestDir: "{app}\"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Pynar <br>`
+yazılabilir. Burada C:\pynar ifadesi yerine pynar klasörünün yolu yazılır.
+![resim](https://user-images.githubusercontent.com/43936380/158245270-f82c1d57-1591-464f-91f2-9b9c27c874e2.png)
