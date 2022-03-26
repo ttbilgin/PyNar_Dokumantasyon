@@ -141,3 +141,11 @@
 > ###     [10.1 Kayıt Olma: Öğretmen](Ogretmen_yardim.html#kayıt-olma-öğretmen)
 
 > ###     [10.2. Okul bilgilerini düzenleme](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
+
+## [11. Sınav Rehberi](Ogretmen_yardim.html)
+
+> ###     [11.1 Sınav Ekranı](Ogretmen_yardim.html#kayıt-olma-öğretmen)
+
+> ###     [11.2 Sınav Başlatma](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
+
+> ###     [11.3 Sınav Bitirme](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
