@@ -142,10 +142,10 @@
 
 > ###     [10.2. Okul bilgilerini düzenleme](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
 
-## [11. Sınav Rehberi](Ogretmen_yardim.html)
+## [11. Sınav Rehberi](Sinav_yardim.html)
 
-> ###     [11.1 Sınav Ekranı](Ogretmen_yardim.html#kayıt-olma-öğretmen)
+> ###     [11.1 Sınav Ekranı](Sinav_yardim.html#sınav-ekranı)
 
-> ###     [11.2 Sınav Başlatma](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
+> ###     [11.2 Sınav Başlatma](Sinav_yardim.html#sınav-başlatma)
 
-> ###     [11.3 Sınav Bitirme](Ogretmen_yardim.html#okul-bilgilerini-düzenleme)
+> ###     [11.3 Sınav Bitirme](Sinav_yardim.html#sınav-bitirme)
