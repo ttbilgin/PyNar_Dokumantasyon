@@ -9,4 +9,5 @@ pandoc Yardim_Bolum7.md --output=Yardim_Bolum7.html --to=html5 --css=github.css 
 pandoc Yardim_Bolum8.md --output=Yardim_Bolum8.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 pandoc Ogrenci_yardim.md --output=Ogrenci_yardim.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 pandoc Ogretmen_yardim.md --output=Ogretmen_yardim.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
+pandoc Sinav_yardim.md --output=Sinav_yardim.html --to=html5 --css=github.css --highlight-style=haddock --self-contained
 python targetchange.py
