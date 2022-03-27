@@ -2,7 +2,7 @@
 
 ## 10.1 Kayıt olma: Öğretmen
 
-[https://www.pynar.org/portal/](https://www.pynar.org/portal/) adresine gidin. Üyelik oluşturu seçin.
+[https://www.pynar.org/portal/](http://www.pynar.org/portal/) adresine gidin. Üyelik oluşturu seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/145949083-5344bcb8-14f4-4613-bf40-221fb0b1eab6.png)
 
@@ -14,7 +14,7 @@ Kaydınızın tamamlanması için kayıt olmakta kullandığınız E-mail adresi
 
 ![Ekran Alıntısı4](https://user-images.githubusercontent.com/56628866/145950964-b68c87da-4dc2-4ebf-81e3-48e62b86c5e2.PNG)
 
-Kaydınız tamamlandıktan sonra https://www.pynar.org/portal/ adresine tekrar gidin ve öğretmen girişini seçin.
+Kaydınız tamamlandıktan sonra http://www.pynar.org/portal/ adresine tekrar gidin ve öğretmen girişini seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/145949083-5344bcb8-14f4-4613-bf40-221fb0b1eab6.png)
 
