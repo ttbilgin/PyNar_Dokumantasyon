@@ -6,7 +6,7 @@
 
 ---
 
-1. [www.pynar.org/releases/setup/](https://www.pynar.org/releases/setup/) adresine gidin.
+1. [www.pynar.org/releases/setup/](http://www.pynar.org/releases/setup/) adresine gidin.
 
 2. PynarKurulum.exe'ye tıklayarak kurulum uygulamasını indiriniz.
 
@@ -42,7 +42,7 @@
 
 32 bit veya 64 bit Debian tabanlı bir Linux dağıtımı gereklidir(Ubuntu, Linux Mint, Pardus, ...). Bu rehberde Pardus kullanılmaktadır.
 
-1. [www.pynar.org/releases/setup/](https://www.pynar.org/releases/setup/) adresine gidin.
+1. [www.pynar.org/releases/setup/](http://www.pynar.org/releases/setup/) adresine gidin.
 
 2. Pynar.deb'e tıklayarak kurulum uygulamasını indiriniz.
 
