@@ -2,7 +2,7 @@
 
 ## 9.1 Kayıt Olma: Öğrenci
 
-[https://www.pynar.org/portal/](https://www.pynar.org/portal/) adresine gidin. Öğrenci Girişini seçin.
+[https://www.pynar.org/portal/](http://www.pynar.org/portal/) adresine gidin. Öğrenci Girişini seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/146160718-5fbcef28-d23e-4a3b-9ad8-a3d8cb12b154.png)
 
@@ -18,7 +18,7 @@ Kayıt olurken kullandığınız E-posta adresine gelen onay postasını açarak
 
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/56628866/146161629-3d307066-9fa1-4d7b-89c4-0ec6ee730749.PNG)
 
-Kaydınız tamamlandıktan sonra https://www.pynar.org/portal/ adresine tekrar gidin ve öğrenci girişini seçin.
+Kaydınız tamamlandıktan sonra http://www.pynar.org/portal/ adresine tekrar gidin ve öğrenci girişini seçin.
 
 ![image](https://user-images.githubusercontent.com/56628866/146161877-9fc1835a-d8d7-400f-b6a5-107c4cf5bbe1.png)
 
