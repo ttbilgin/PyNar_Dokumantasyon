@@ -40,6 +40,6 @@ qssfiles
 ```
 klasörleri uygulamanın bulunduğu konumda oluşan main.dist klasörü içine atılır.
 
-## 2. çalıştırma
+## 2. Ad değiştirme ve çalıştırma
 
-Proje klasörü içinde oluşan main.dist klasörü içindeki main.exe çift tıklanarak çalıştırılır.
+Öncelikle kurulum dosyası yapılması isteniyorsa proje klasörü içinde oluşan main.dist klasörü içindeki main.exe'nin ismi pynar.exe olarak değiştirilir. Programı çalıştırmak içinse aynı dosyanın çalıştırılması yeterlidir.
