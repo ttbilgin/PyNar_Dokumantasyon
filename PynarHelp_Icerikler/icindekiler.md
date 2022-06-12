@@ -2,7 +2,7 @@
 
 ## [1. Kurulum](Yardim_Bolum1.html)
 
-> ###     [1.1 Kurulum Rehberi](Yardim_Bolum1.html#kurulum-rehberi)
+> ###     [1.1 Kurulum Rehberi](Yardim_Bolum1.md#kurulum-rehberi)
 
 > ###     [1.2 Sistem Gereksinimleri](Yardim_Bolum1.html#sistem-gereksinimleri)
 
