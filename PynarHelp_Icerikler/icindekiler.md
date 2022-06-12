@@ -86,7 +86,7 @@
 
 ## [3.Pynar Editörde Oturum Açma](Yardim_Bolum3.html)
 
-> ###     [3.1 [www.pynar.org](www.pynar.org) portalına kayıt olma](Yardim_Bolum3.html#www.pynar.org-portalına-kayıt-olma)
+> ###     [3.1 (www.pynar.org) portalına kayıt olma](Yardim_Bolum3.html#www.pynar.org-portalına-kayıt-olma)
 
 > ###     [3.2 E-posta doğrulama](Yardim_Bolum3.html#e-posta-doğrulama)
 
