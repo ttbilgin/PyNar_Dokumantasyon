@@ -4,7 +4,7 @@
 3. [Pardus/Debian/Ubuntu için deb paketi oluşturme](DebPaketYapma.md)
 4. [pyright'ın derlenmesi](pyright.md)
 5. [Web sunucu kurulumu ](webserver_configuration.md)
-6. [SSL Sertifika İşlemleri ] (SSL_sertifika_islemleri)
+6. [SSL Sertifika İşlemleri ] (SSL_sertifika_islemleri.md)
 7. [ChangeLog](ChangeLog.md)
 
 
