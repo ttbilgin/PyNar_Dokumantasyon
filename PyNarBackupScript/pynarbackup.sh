@@ -14,7 +14,7 @@ fi
 
 echo "Tar dosyası oluşturuluyor. Lütfen /var/www dizini üzerinde değişiklik gerçekleştirmeyin!"
 
-tar czf pynar-backup.tar.gz /var/www/
+tar czf pynar-backup.tar.gz /var/www/ /etc/apache2
 
 if [ $? -eq 0 ] 
 then 
