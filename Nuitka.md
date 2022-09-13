@@ -1,7 +1,10 @@
 # Nuitka ile projeyi derleme
 
 ## Derleme Öncesi yapılması gerekenler ##
-<<python_kurulum_dizini>> \Lib\site-packages\TurkishStemmer\ __init__.py  dosyası içindeki 420. satırı şu şekilde değiştiriniz.
+'''
+<<python_kurulum_dizini>> \Lib\site-packages\TurkishStemmer\ __init__.py  
+'''
+dosyası içindeki 420. satırı şu şekilde değiştiriniz.
 
 Eskisi: ``` path_to_file = os.path.join(os.path.dirname(__file__), "resources", path) ```
 
