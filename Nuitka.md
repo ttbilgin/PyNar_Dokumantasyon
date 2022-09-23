@@ -13,10 +13,14 @@ Yenisi: ``` path_to_file = os.path.join("Data","resources", path) ```
 pip install nuitka
 ```
 ## 1. Windows için derleme
+### a) mingw ile derleme
 ```
 nuitka --enable-plugin=pyqt5,multiprocessing,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py --windows-icon-from-ico=pynar.ico --windows-disable-console --mingw64
 ```
-
+### b) MSVC 2019 ile derleme 
+```
+nuitka --enable-plugin=pyqt5,multiprocessing,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py --windows-icon-from-ico=pynar.ico --windows-disable-console --msvc=14.2
+```
 
 ## 2. Linux/Pardus için derleme
 ```
