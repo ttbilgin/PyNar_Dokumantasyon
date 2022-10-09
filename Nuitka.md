@@ -23,13 +23,23 @@ nuitka --enable-plugin=pyqt5,multiprocessing,numpy --include-qt-plugins=sensible
 ```
 
 ## 2. Linux/Pardus için derleme
+
+Bu yönerge Nuitka 1.1.3 ve Pardus 21.3 veya Debian 10 ve 11 sürümleri için hazırlanmıştır. 
+
 ```
-sudo apt-get install -y qt5-style-plugins
-sudo apt-get install -y chrpath
-sudo apt-get install -y ccache
-cd /usr/lib/x86_64-linux-gnu/qt5/
-sudo cp -r /usr/share/qt5/*  .
-python3 -m nuitka --enable-plugin=qt-plugins,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone main.py
+sudo apt-get install build-essential
+sudo apt-get install python3-dev patchelf
+pip3 install orderedset
+pip3 install -U PyYAML
+```
+emoji paketi içinde gelen data_dict.py dosyasının içinde unicode olmayan yorum satırları derleme işlemine engel olmaktadır. Bu sebeple data_dict.py dosyası içindeki yorumlar bir sed komutu ile silinebilir.
+
+```
+sed 
+```
+Bu işlemler tamamlandıktan sonra derleme için aşağıdaki komut kullanılabilir.
+```
+python3 -m nuitka --enable-plugin=pyqt5,numpy --include-qt-plugins=sensible,styles,sqldrivers --standalone --lto=no main.py
 ```
 
 # Derleme sonrası klasör ve dosya düzeltmeleri
