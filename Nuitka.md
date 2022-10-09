@@ -35,7 +35,8 @@ pip3 install -U PyYAML
 emoji paketi içinde gelen data_dict.py dosyasının içinde unicode olmayan yorum satırları derleme işlemine engel olmaktadır. Bu sebeple data_dict.py dosyası içindeki yorumlar bir sed komutu ile silinebilir.
 
 ```
-sed 
+cd $HOME/.local/lib/python3.9/site-packages/emoji/unicode_codes/
+sed -i 's/#.*$//;/^$/d' data_dict.py 
 ```
 Bu işlemler tamamlandıktan sonra derleme için aşağıdaki komut kullanılabilir.
 ```
