@@ -32,11 +32,9 @@ sudo apt-get install python3-dev patchelf
 pip3 install orderedset
 pip3 install -U PyYAML
 ```
-emoji paketi içinde gelen data_dict.py dosyasının içinde unicode olmayan yorum satırları derleme işlemine engel olmaktadır. Bu sebeple data_dict.py dosyası içindeki yorumlar bir sed komutu ile silinebilir.
-
+emoji paketi içinde gelen data_dict.py dosyasının içinde unicode olmayan yorum satırları derleme işlemine engel olmaktadır. Bu sebeple aşağdaki data_dict.py dosyası şu dosya ile değiştirilmelidir.
 ```
-cd $HOME/.local/lib/python3.9/site-packages/emoji/unicode_codes/
-sed -i 's/#.*$//;/^$/d' data_dict.py 
+<<python_kurulum_dizini>> \Lib\site-packages\emoji\unicode_codes\data_dict.py
 ```
 Bu işlemler tamamlandıktan sonra derleme için aşağıdaki komut kullanılabilir.
 ```
