@@ -1,4 +1,14 @@
 # Gereken dosyalar
+
+# Ön işlemler
+1) Data içindeki recents.json dosyasının içini boşaltın
+2) Config klasöründeki pynar.ini dosyasında Font bölümünü şöyle düzenleyin.
+
+  code_font = DejaVu Sans Mono
+  editor_font = DejaVu Sans
+  size = 12
+  editorsize = 10
+
 Pynar uygulaması
 <br>
 Pynar simgesi(pynar.ico)
